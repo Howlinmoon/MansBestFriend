@@ -13,6 +13,6 @@
 @property (nonatomic) int age;
 @property (nonatomic, strong) NSString *breed;
 @property (nonatomic, strong) UIImage *image;
-
+@property (nonatomic, strong) NSString *name;
 
 @end
