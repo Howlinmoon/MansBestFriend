@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9659C7BE1A658DFC006B97C0 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9659C7BD1A658DFC006B97C0 /* MBFDog.m */; };
 		969C38D61A64424C0025089B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969C38D51A64424C0025089B /* Foundation.framework */; };
 		969C38D81A64424C0025089B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969C38D71A64424C0025089B /* CoreGraphics.framework */; };
 		969C38DA1A64424C0025089B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969C38D91A64424C0025089B /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9659C7BC1A658DFC006B97C0 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		9659C7BD1A658DFC006B97C0 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
 		969C38D21A64424C0025089B /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		969C38D51A64424C0025089B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		969C38D71A64424C0025089B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				969C38E71A64424C0025089B /* Main.storyboard */,
 				969C38EA1A64424C0025089B /* ViewController.h */,
 				969C38EB1A64424C0025089B /* ViewController.m */,
+				9659C7BC1A658DFC006B97C0 /* MBFDog.h */,
+				9659C7BD1A658DFC006B97C0 /* MBFDog.m */,
 				969C38ED1A64424C0025089B /* Images.xcassets */,
 				969C38DC1A64424C0025089B /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				969C38EC1A64424C0025089B /* ViewController.m in Sources */,
 				969C38E61A64424C0025089B /* AppDelegate.m in Sources */,
+				9659C7BE1A658DFC006B97C0 /* MBFDog.m in Sources */,
 				969C38E21A64424C0025089B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +462,7 @@
 				969C39061A64424C0025089B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969C39071A64424C0025089B /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				969C39091A64424C0025089B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
