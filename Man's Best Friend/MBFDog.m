@@ -10,4 +10,35 @@
 
 @implementation MBFDog
 
+-(void) bark {
+    //self.name = @"New Name";
+    NSLog(@"Woof! Woof!");
+}
+
+-(void)barkANumberOfTimes:(int)numberOfTimes {
+    for (int bark = 1; bark <= numberOfTimes; bark++) {
+        //NSLog(@"Woof! Woof!");
+        [self bark];
+    }
+}
+
+-(void)barkANumberOfTimes:(int)numberOfTimes loudly:(BOOL)isLoud {
+    NSString *sound = @"";
+    if (! isLoud) {
+        sound = @"yip yip!";
+    } else {
+        sound = @"WOOF! WOOF!";
+    }
+
+    for (int bark = 1; bark <= numberOfTimes; bark++) {
+        NSLog(@"%@",sound);
+    }
+}
+
+
+-(void)changeBreedToWerewolf {
+    self.breed = @"WereWolf";
+}
+
+
 @end

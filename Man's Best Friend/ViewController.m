@@ -23,11 +23,21 @@
     myDog.name = @"Lassie";
     myDog.breed = @"Collie";
     myDog.age = 5;
-    NSLog(@"My dog is named %@ and it's age is %i, its' breed is %@", myDog.name, myDog.age, myDog.breed);
-    myDog = nil;
-    NSLog(@"My dog is named %@ and it's age is %i, its' breed is %@", myDog.name, myDog.age, myDog.breed);
+    //NSLog(@"My dog is named %@ and it's age is %i, its' breed is %@", myDog.name, myDog.age, myDog.breed);
+    //myDog = nil;
+    //NSLog(@"My dog is named %@ and it's age is %i, its' breed is %@", myDog.name, myDog.age, myDog.breed);
+
+    //[myDog bark];
+    [myDog barkANumberOfTimes:myDog.age];
+    
+    [myDog changeBreedToWerewolf];
+    
+    //NSLog(@"My dog is named %@ and it's age is %i, its' breed is %@", myDog.name, myDog.age, myDog.breed);
     
     
+    [self printHelloWorld];
+    
+    [myDog barkANumberOfTimes:3 loudly:true];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,5 +45,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)printHelloWorld {
+    NSLog(@"Hello World");
+}
+
+
 
 @end

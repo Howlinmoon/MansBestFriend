@@ -15,4 +15,12 @@
 @property (nonatomic, strong) UIImage *image;
 @property (nonatomic, strong) NSString *name;
 
+-(void) bark;
+
+-(void)barkANumberOfTimes:(int)numberOfTimes;
+
+-(void)changeBreedToWerewolf;
+
+-(void)barkANumberOfTimes:(int)numberOfTimes loudly:(BOOL)isLoud;
+
 @end
