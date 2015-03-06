@@ -46,5 +46,29 @@
     return newAge;
 }
 
+-(void)problem1:(int)parameter1 {
+    for (int x = parameter1; x >= 1; x--) {
+        NSLog(@"%i",x);
+    }
+}
+
+
+-(void)problem2:(int)parameter1 value2:(int)parameter2 {
+    for (int x = parameter1 ; x >= parameter2; x--) {
+        NSLog(@"%i",x);
+    }
+}
+
+-(int)problem3:(int)factorThis {
+    int factored = 1;
+    for (int x = factorThis; x >= 1; x--) {
+        factored = factored * x;
+    }
+    
+    return factored;
+}
+
+
+
 
 @end

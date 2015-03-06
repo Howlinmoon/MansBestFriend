@@ -25,5 +25,14 @@
 
 -(int)ageInDogYearsFromAge:(int)regularAge;
 
+// This is added for the challenge
+
+-(void)problem1:(int)parameter1;
+
+-(void)problem2:(int)parameter1 value2:(int)parameter2;
+
+-(int)problem3:(int)factorThis;
+
+
 
 @end

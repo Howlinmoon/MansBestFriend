@@ -44,6 +44,12 @@
     int dogYears = [myDog ageInDogYearsFromAge:myDog.age];
     
     NSLog(@"Age in dog years is %i", dogYears);
+    
+    [myDog problem1:5];
+    
+    [myDog problem2:6 value2:2];
+    
+    NSLog(@"10 factorial is %i", [myDog problem3:10]);
 
 }
 
