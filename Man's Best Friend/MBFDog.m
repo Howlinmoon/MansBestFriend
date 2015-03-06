@@ -41,4 +41,10 @@
 }
 
 
+-(int)ageInDogYearsFromAge:(int)regularAge {
+    int newAge = regularAge * 7;
+    return newAge;
+}
+
+
 @end

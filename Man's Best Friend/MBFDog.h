@@ -23,4 +23,7 @@
 
 -(void)barkANumberOfTimes:(int)numberOfTimes loudly:(BOOL)isLoud;
 
+-(int)ageInDogYearsFromAge:(int)regularAge;
+
+
 @end
