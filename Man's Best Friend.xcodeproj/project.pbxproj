@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		964D32FB1AAB53ED00A25FEC /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 964D32FA1AAB53ED00A25FEC /* St.Bernard.JPG */; };
 		9659C7BE1A658DFC006B97C0 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9659C7BD1A658DFC006B97C0 /* MBFDog.m */; };
 		969C38D61A64424C0025089B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969C38D51A64424C0025089B /* Foundation.framework */; };
 		969C38D81A64424C0025089B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969C38D71A64424C0025089B /* CoreGraphics.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		964D32FA1AAB53ED00A25FEC /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
 		9659C7BC1A658DFC006B97C0 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
 		9659C7BD1A658DFC006B97C0 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
 		969C38D21A64424C0025089B /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 		969C38DC1A64424C0025089B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				964D32FA1AAB53ED00A25FEC /* St.Bernard.JPG */,
 				969C38DD1A64424C0025089B /* Man's Best Friend-Info.plist */,
 				969C38DE1A64424C0025089B /* InfoPlist.strings */,
 				969C38E11A64424C0025089B /* main.m */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964D32FB1AAB53ED00A25FEC /* St.Bernard.JPG in Resources */,
 				969C38EE1A64424C0025089B /* Images.xcassets in Resources */,
 				969C38E01A64424C0025089B /* InfoPlist.strings in Resources */,
 				969C38E91A64424C0025089B /* Main.storyboard in Resources */,

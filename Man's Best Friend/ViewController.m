@@ -15,8 +15,7 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     MBFDog *myDog = [[MBFDog alloc] init];
@@ -45,12 +44,26 @@
     
     NSLog(@"Age in dog years is %i", dogYears);
     
+    // change back to St. Bernard to match the picture
+    
+    myDog.breed = @"St. Bernard";
+    myDog.image = [UIImage imageNamed:@"St.Bernard.JPG"];
+    
+    self.myImageView.image = myDog.image;
+    self.nameLabel.text = myDog.name;
+    self.breedLabel.text = myDog.breed;
+    
+    
+    
+/*
+ challenge stuff - unrelated to project - too lazy to create another project
+ 
     [myDog problem1:5];
     
     [myDog problem2:6 value2:2];
     
     NSLog(@"10 factorial is %i", [myDog problem3:10]);
-
+*/
 }
 
 - (void)didReceiveMemoryWarning
