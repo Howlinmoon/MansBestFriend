@@ -23,6 +23,10 @@
 		969C38F71A64424C0025089B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969C38D91A64424C0025089B /* UIKit.framework */; };
 		969C38FF1A64424C0025089B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 969C38FD1A64424C0025089B /* InfoPlist.strings */; };
 		969C39011A64424C0025089B /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969C39001A64424C0025089B /* Man_s_Best_FriendTests.m */; };
+		96BB30EF1AADFF8900F458CA /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BB30EB1AADFF8900F458CA /* Bo.jpg */; };
+		96BB30F01AADFF8900F458CA /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BB30EC1AADFF8900F458CA /* BorderCollie.jpg */; };
+		96BB30F11AADFF8900F458CA /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BB30ED1AADFF8900F458CA /* ItalianGreyhound.jpg */; };
+		96BB30F21AADFF8900F458CA /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BB30EE1AADFF8900F458CA /* JRT.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		969C38FC1A64424C0025089B /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		969C38FE1A64424C0025089B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		969C39001A64424C0025089B /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		96BB30EB1AADFF8900F458CA /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		96BB30EC1AADFF8900F458CA /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		96BB30ED1AADFF8900F458CA /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		96BB30EE1AADFF8900F458CA /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,10 @@
 			isa = PBXGroup;
 			children = (
 				964D32FA1AAB53ED00A25FEC /* St.Bernard.JPG */,
+				96BB30EB1AADFF8900F458CA /* Bo.jpg */,
+				96BB30EC1AADFF8900F458CA /* BorderCollie.jpg */,
+				96BB30ED1AADFF8900F458CA /* ItalianGreyhound.jpg */,
+				96BB30EE1AADFF8900F458CA /* JRT.jpg */,
 				969C38DD1A64424C0025089B /* Man's Best Friend-Info.plist */,
 				969C38DE1A64424C0025089B /* InfoPlist.strings */,
 				969C38E11A64424C0025089B /* main.m */,
@@ -236,10 +248,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BB30EF1AADFF8900F458CA /* Bo.jpg in Resources */,
 				964D32FB1AAB53ED00A25FEC /* St.Bernard.JPG in Resources */,
 				969C38EE1A64424C0025089B /* Images.xcassets in Resources */,
 				969C38E01A64424C0025089B /* InfoPlist.strings in Resources */,
 				969C38E91A64424C0025089B /* Main.storyboard in Resources */,
+				96BB30F01AADFF8900F458CA /* BorderCollie.jpg in Resources */,
+				96BB30F21AADFF8900F458CA /* JRT.jpg in Resources */,
+				96BB30F11AADFF8900F458CA /* ItalianGreyhound.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

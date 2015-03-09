@@ -19,7 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     MBFDog *myDog = [[MBFDog alloc] init];
-    myDog.name = @"Lassie";
+    myDog.name = @"Woofie";
     myDog.breed = @"Collie";
     myDog.age = 5;
     //NSLog(@"My dog is named %@ and it's age is %i, its' breed is %@", myDog.name, myDog.age, myDog.breed);
@@ -53,6 +53,30 @@
     self.nameLabel.text = myDog.name;
     self.breedLabel.text = myDog.breed;
     
+    MBFDog *secondDog = [[MBFDog alloc] init];
+    secondDog.name = @"Wishbone";
+    secondDog.breed = @"Jack Russel Terrier";
+    secondDog.image = [UIImage imageNamed:@"JRT.jpg"];
+
+    MBFDog *thirdDog = [[MBFDog alloc] init];
+    thirdDog.name = @"Lassie";
+    thirdDog.breed = @"Collie";
+    thirdDog.image = [UIImage imageNamed:@"BorderCollie.jpg"];
+
+    MBFDog *fourthDog = [[MBFDog alloc] init];
+    fourthDog.name = @"Angel";
+    fourthDog.breed = @"Greyhound";
+    fourthDog.image = [UIImage imageNamed:@"ItalianGreyhound.jpg"];
+    
+    self.myDogs = [[NSMutableArray alloc] init];
+    [self.myDogs addObject:myDog];
+    [self.myDogs addObject:secondDog];
+    [self.myDogs addObject:thirdDog];
+    [self.myDogs addObject:fourthDog];
+    
+    NSLog(@"%@", self.myDogs);
+
+    
     
     
 /*
@@ -74,6 +98,19 @@
 
 -(void)printHelloWorld {
     NSLog(@"Hello World");
+}
+
+- (IBAction)newDogBarButtonItemPressed:(UIBarButtonItem *)sender {
+    int numberOfDogs = [self.myDogs count];
+    NSLog(@"There are %i dogs in our array", numberOfDogs);
+    
+    int randomIndex = arc4random() % numberOfDogs;
+    MBFDog *randomDog = [self.myDogs objectAtIndex:randomIndex];
+    self.myImageView.image = randomDog.image;
+    self.nameLabel.text = randomDog.name;
+    self.breedLabel.text = randomDog.breed;
+    sender.title = @"And Another";
+    
 }
 
 
