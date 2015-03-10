@@ -20,6 +20,6 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *breedLabel;
 @property (strong, nonatomic) NSMutableArray *myDogs;
-
+@property (nonatomic) int currentIndex;
 
 @end

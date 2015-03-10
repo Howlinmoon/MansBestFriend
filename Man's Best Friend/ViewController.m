@@ -76,7 +76,8 @@
     
     NSLog(@"%@", self.myDogs);
 
-    
+    // initialize our Dog keeperTracker index
+    self.currentIndex = 0;
     
     
 /*
@@ -105,10 +106,38 @@
     NSLog(@"There are %i dogs in our array", numberOfDogs);
     
     int randomIndex = arc4random() % numberOfDogs;
+    
+    // fix the double dog issue - which happens when we randomize the same dog twice
+    // in a row
+    
+    if (self.currentIndex == randomIndex && self.currentIndex == 0) {
+        randomIndex ++;
+        NSLog(@"Activating initial random dog duplication countermeasures");
+    } else {
+        if (self.currentIndex == randomIndex) {
+            NSLog(@"Activating two random dogs in a row countermeasurers");
+            randomIndex --;
+        }
+    }
+    
+    // save our random index for the next time
+    self.currentIndex = randomIndex;
+    
     MBFDog *randomDog = [self.myDogs objectAtIndex:randomIndex];
-    self.myImageView.image = randomDog.image;
-    self.nameLabel.text = randomDog.name;
-    self.breedLabel.text = randomDog.breed;
+
+//    self.myImageView.image = randomDog.image;
+//    self.nameLabel.text = randomDog.name;
+//    self.breedLabel.text = randomDog.breed;
+    
+    [UIView transitionWithView:self.view duration:2.5 options:
+     UIViewAnimationOptionTransitionCrossDissolve animations:^{
+        self.myImageView.image = randomDog.image;
+        self.breedLabel.text = randomDog.breed;
+        self.nameLabel.text = randomDog.name;
+    } completion:^(BOOL finished) {
+        
+    }];
+    
     sender.title = @"And Another";
     
 }
