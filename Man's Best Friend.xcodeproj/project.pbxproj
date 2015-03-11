@@ -23,6 +23,7 @@
 		969C38F71A64424C0025089B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969C38D91A64424C0025089B /* UIKit.framework */; };
 		969C38FF1A64424C0025089B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 969C38FD1A64424C0025089B /* InfoPlist.strings */; };
 		969C39011A64424C0025089B /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969C39001A64424C0025089B /* Man_s_Best_FriendTests.m */; };
+		969F21E91AB0A22A00B6C805 /* MBFPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 969F21E81AB0A22A00B6C805 /* MBFPuppy.m */; };
 		96BB30EF1AADFF8900F458CA /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BB30EB1AADFF8900F458CA /* Bo.jpg */; };
 		96BB30F01AADFF8900F458CA /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BB30EC1AADFF8900F458CA /* BorderCollie.jpg */; };
 		96BB30F11AADFF8900F458CA /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BB30ED1AADFF8900F458CA /* ItalianGreyhound.jpg */; };
@@ -62,6 +63,8 @@
 		969C38FC1A64424C0025089B /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		969C38FE1A64424C0025089B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		969C39001A64424C0025089B /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		969F21E71AB0A22A00B6C805 /* MBFPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPuppy.h; sourceTree = "<group>"; };
+		969F21E81AB0A22A00B6C805 /* MBFPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPuppy.m; sourceTree = "<group>"; };
 		96BB30EB1AADFF8900F458CA /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
 		96BB30EC1AADFF8900F458CA /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
 		96BB30ED1AADFF8900F458CA /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				969C38EB1A64424C0025089B /* ViewController.m */,
 				9659C7BC1A658DFC006B97C0 /* MBFDog.h */,
 				9659C7BD1A658DFC006B97C0 /* MBFDog.m */,
+				969F21E71AB0A22A00B6C805 /* MBFPuppy.h */,
+				969F21E81AB0A22A00B6C805 /* MBFPuppy.m */,
 				969C38ED1A64424C0025089B /* Images.xcassets */,
 				969C38DC1A64424C0025089B /* Supporting Files */,
 			);
@@ -278,6 +283,7 @@
 				969C38E61A64424C0025089B /* AppDelegate.m in Sources */,
 				9659C7BE1A658DFC006B97C0 /* MBFDog.m in Sources */,
 				969C38E21A64424C0025089B /* main.m in Sources */,
+				969F21E91AB0A22A00B6C805 /* MBFPuppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

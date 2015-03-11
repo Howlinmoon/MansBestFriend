@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MBFDog.h"
+#import "MBFPuppy.h"
 
 @interface ViewController ()
 
@@ -78,6 +79,15 @@
 
     // initialize our Dog keeperTracker index
     self.currentIndex = 0;
+    MBFPuppy *littlePuppy = [[MBFPuppy alloc] init];
+    [littlePuppy givePuppyEyes];
+    // illegal [myDog givePuppyEyes];
+    [littlePuppy barkANumberOfTimes:3 loudly:false];
+    littlePuppy.name = @"Bo O";
+    littlePuppy.breed = @"Portugese Water Dog";
+    littlePuppy.image = [UIImage imageNamed:@"Bo.jpg"];
+    [self.myDogs addObject:littlePuppy];
+    
     
     
 /*
@@ -119,7 +129,7 @@
             randomIndex --;
         }
     }
-    
+    NSLog(@"The random index is: %i", randomIndex);
     // save our random index for the next time
     self.currentIndex = randomIndex;
     
