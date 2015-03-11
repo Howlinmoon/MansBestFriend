@@ -14,4 +14,9 @@
     NSLog(@":-(");
 }
 
+-(void) bark {
+    NSLog(@"Whimper, Whimper");
+    [self givePuppyEyes];
+}
+
 @end

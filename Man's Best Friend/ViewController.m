@@ -80,9 +80,10 @@
     // initialize our Dog keeperTracker index
     self.currentIndex = 0;
     MBFPuppy *littlePuppy = [[MBFPuppy alloc] init];
-    [littlePuppy givePuppyEyes];
+    // [littlePuppy givePuppyEyes];
     // illegal [myDog givePuppyEyes];
-    [littlePuppy barkANumberOfTimes:3 loudly:false];
+    [littlePuppy bark];
+    [myDog bark];
     littlePuppy.name = @"Bo O";
     littlePuppy.breed = @"Portugese Water Dog";
     littlePuppy.image = [UIImage imageNamed:@"Bo.jpg"];
